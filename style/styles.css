@@ -1,0 +1,110 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background: linear-gradient(135deg, #4a148c, #000000);
+    padding-top: 60px; /* Para dar espaço ao header fixo */
+}
+
+header {
+    background: #000;
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Amarelo */
+}
+
+section {
+    padding: 4rem 0 2rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.profile img {
+    max-width: 150px;
+    border-radius: 50%;
+    border: 5px solid #ffcc00; /* Amarelo */
+}
+
+.info {
+    margin-left: 2rem;
+}
+
+.info h2, .info h3 {
+    color: #ffcc00; /* Amarelo */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.info p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+ul li a {
+    color: #ffcc00; /* Amarelo */
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+}
